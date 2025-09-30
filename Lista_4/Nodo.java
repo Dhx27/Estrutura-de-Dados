@@ -1,13 +1,14 @@
-package Lista3;
-
+package Lista_4;
 public class Nodo {
-
+    
     public int elemento;
     public Nodo proximo;
+    public Nodo anterior;
 
     public Nodo(int elemento){
 
         this.elemento = elemento;
         this.proximo = null;
+        this.anterior =  null;
     }
 }
